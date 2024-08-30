@@ -1,0 +1,226 @@
+El álgebra  es la rama de la matemática que estudia la combinación de elementos de estructuras abstractas acorde a ciertas reglas. Originalmente esos elementos podían ser interpretados como números o cantidades, por lo que el álgebra en cierto modo originalmente fue una generalización y extensión de la aritmética.​ En el álgebra moderna existen áreas del álgebra que en modo alguno pueden considerarse extensiones de la aritmética (álgebra abstracta, álgebra homológica, álgebra exterior, etc.).
+
+El álgebra elemental difiere de la aritmética en el uso de abstracciones, como el uso de letras para representar números que son desconocidos o que pueden tomar muchos valores. Por ejemplo, en x + 2 = 5 {\displaystyle x+2=5} {\displaystyle x+2=5} la letra x {\displaystyle x} x es una incógnita, pero aplicando el opuesto se puede revelar su valor: x = 3 {\displaystyle x=3} {\displaystyle x=3}. En E = m c 2 {\displaystyle E=mc^{2}\,} {\displaystyle E=mc^{2}\,}, las letras E {\displaystyle E} E y m {\displaystyle m} m son variables, y la letra c {\displaystyle c} c es una constante, la velocidad de la luz en el vacío. El álgebra proporciona métodos para escribir fórmulas y resolver ecuaciones que son mucho más claros y fáciles que el antiguo método de escribir todo con palabras.
+
+La palabra álgebra también se utiliza en ciertas formas especializadas. Un tipo especial de objeto matemático en el álgebra abstracta se llama álgebra, y la palabra se utiliza, por ejemplo, en las frases álgebra lineal y topología algebraica.
+Índice
+
+    1 Etimología
+    2 Introducción
+    3 Historia del álgebra
+        3.1 El álgebra en la antigüedad
+        3.2 Influencia árabe
+        3.3 Edad Moderna
+        3.4 Siglo XIX
+    4 Áreas de matemáticas con la palabra álgebra en su nombre
+    5 Notación algebraica
+        5.1 Signos de operación
+        5.2 Signos de relación
+    6 Signos de agrupación
+    7 Signos y símbolos más comunes
+    8 Lenguaje algebraico
+    9 Estructura algebraica
+    10 Véase también
+    11 Referencias
+    12 Bibliografía
+        12.1 Obras citadas
+        12.2 Otras publicaciones
+    13 Enlaces externos
+
+Etimología
+
+La palabra álgebra proviene del árabeالجبر3​ y cálculo de datos6​ del título del libro de principios del siglo IX cIlm al-jabr wa l-muqābala, La ciencia del restablecimiento y el equilibrio por el matemático y astrónomo Persa Muḥammad ibn Mūsā al-Khwārizmī. En su obra, el término al-jabr se refería a la operación de mover un término de un lado de una ecuación al otro, المقابلة al-muqābala "equilibrar" se refería a añadir términos iguales a ambos lados. Acortada a simplemente algeber o álgebra en latín, la palabra acabó entrando en la lengua inglesa durante el siglo XV, ya sea desde el español, el italiano o el latín medieval. Originalmente se refería al procedimiento quirúrgico de fijar huesos rotos o dislocados. El significado matemático se registró por primera vez (en inglés) en el siglo XVI.7​
+Introducción
+
+A diferencia de la aritmética elemental, que trata de los números y las operaciones fundamentales, en álgebra -para lograr la generalización- se introducen además símbolos (usualmente letras) para representar parámetros (variables o coeficientes), o cantidades desconocidas (incógnitas); las expresiones así formadas son llamadas «fórmulas algebraicas», y expresan una regla o un principio general.8​ El álgebra conforma una de las grandes áreas de las matemáticas, junto a la teoría de números, la geometría y el análisis.
+Página del libro Kitāb al-mukhtaṣar fī ḥisāb al-ŷabr wa-l-muqābala, de Al-Juarismi
+
+La palabra «álgebra» proviene del vocablo árabe الجبر al-ŷabar (en árabe dialectal por asimilación progresiva se pronunciaba [alŷɛbɾ] de donde derivan los términos de las lenguas europeas), que se traduce como 'restauración' o 'reponimiento, reintegración'. Deriva del tratado escrito alrededor del año 820 d. C. por el matemático y astrónomo persa Muhammad ibn Musa al-Jwarizmi (conocido como Al Juarismi), titulado Al-kitāb al-mukhtaṣar fī ḥisāb al-ŷarabi waˀl-muqābala (Compendio de cálculo por reintegración y comparación), el cual proporcionaba operaciones simbólicas para la solución sistemática de ecuaciones lineales y cuadráticas. Muchos de sus métodos derivan del desarrollo de la matemática en el islam medieval, destacando la independencia del álgebra como una disciplina matemática independiente de la geometría y de la aritmética.9​ Puede considerarse al álgebra como el arte de hacer cálculos del mismo modo que en aritmética, pero con objetos matemáticos no-numéricos.10​
+
+El adjetivo «algebraico» denota usualmente una relación con el álgebra, como por ejemplo en estructura algebraica. Por razones históricas, también puede indicar una relación con las soluciones de ecuaciones polinomiales, números algebraicos, extensión algebraica o expresión algebraica. Conviene distinguir entre:
+
+    Álgebra elemental es la parte del álgebra que se enseña generalmente en los cursos de matemáticas.
+    Álgebra abstracta es el nombre dado al estudio de las «estructuras algebraicas» propiamente.
+
+El álgebra usualmente se basa en estudiar las combinaciones de cadenas finitas de signos y, mientras que análisis matemático requiere estudiar límites y sucesiones de una cantidad infinita de elementos.
+Historia del álgebra
+Véase también: Historia de la matemática
+El álgebra en la antigüedad
+
+Las raíces del álgebra pueden rastrearse hasta la antigua matemática babilónica,11​ que había desarrollado un avanzado sistema aritmético con el que fueron capaces de hacer cálculos en una forma algorítmica. Con el uso de este sistema lograron encontrar fórmulas y soluciones para resolver problemas que hoy en día suelen resolverse mediante ecuaciones lineales, ecuaciones de segundo grado y ecuaciones indeterminadas. En contraste, la mayoría de los egipcios de esta época, y la mayoría de los matemáticos griegos y chinos del primer milenio antes de Cristo, normalmente resolvían tales ecuaciones por métodos geométricos, tales como los descritos en el Papiro de Rhind, Los Elementos de Euclides y Los nueve capítulos sobre el arte matemático.
+
+    Papiro de Ahmes; datado entre 2000 al 1800 a. C.
+
+    Las nueve lecciones del arte matemático; compilado durante siglos II y I a. C.
+
+    Elementos de Euclides, ca. 300 a. C.
+
+Arithmetica; escrito por Diofanto alrededor de 280
+Véase también: Matemática helénica
+
+Los matemáticos de la Antigua Grecia introdujeron una importante transformación al crear un álgebra de tipo geométrico, en donde los «términos» eran representados mediante los «lados de objetos geométricos», usualmente líneas a las cuales asociaban letras.10​ Los matemáticos helénicos Herón de Alejandría y Diofanto12​ así como también los matemáticos indios como Brahmagupta, siguieron las tradiciones de Egipto y Babilonia, si bien la Arithmetica de Diofanto y el Brahmasphutasiddhanta de Brahmagupta se hallan a un nivel de desarrollo mucho más alto.13​ Por ejemplo, la primera solución aritmética completa (incluyendo al cero y soluciones negativas) para las ecuaciones cuadráticas fue descrita por Brahmagupta en su libro Brahmasphutasiddhanta. Más tarde, los matemáticos árabes y musulmanes desarrollarían métodos algebraicos a un grado mucho mayor de sofisticación.
+
+Diofanto (siglo III d. C.), algunas veces llamado «el pádre del álgebra», fue un matemático alejandrino, autor de una serie de libros intitulados Arithmetica. Estos textos tratan de las soluciones a las ecuaciones algebraicas.14​
+Influencia árabe
+Véase también: Matemática en el islam medieval
+
+Los babilonios y Diofanto utilizaron sobre todo métodos especiales ad hoc para resolver ecuaciones, la contribución de Al-Khwarizmi fue fundamental; resuelve ecuaciones lineales y cuadráticas sin el simbolismo algebraico, números negativos o el cero, por lo que debe distinguir varios tipos de >jab.15​
+
+El matemático persa Omar Khayyam desarrolló la geometría algebraica y encontró la solución geométrica de la ecuación cúbica. Otro matemático persa, Sharaf Al-Din al-Tusi, encontró la solución numérica y algebraica a diversos casos de ecuaciones cúbicas; también desarrolló el concepto de función. Los matemáticos indios Mahavirá y Bhaskara II, el matemático persa Al-Karaji, y el matemático chino Zhu Shijie, resolvieron varios casos de ecuaciones de grado tres, cuatro y cinco, así como ecuaciones polinómicas de orden superior mediante métodos numéricos.
+Edad Moderna
+
+Durante la Edad Moderna europea tienen lugar numerosas innovaciones, y se alcanzan resultados que claramente superan los resultados obtenidos por los matemáticos árabes, persas, indios o griegos. Parte de este estímulo viene del estudio de las ecuaciones polinómicas de tercer y cuarto grado. Las soluciones para ecuaciones polinómicas de segundo grado ya era conocida por los matemáticos babilónicos cuyos resultados se difundieron por todo el mundo antiguo.
+
+El descrubrimiento del procedimiento para encontrar soluciones algebraicas de tercer y cuarto orden se dieron en la Italia del siglo XVI. También es notable que la noción de determinante fue descubierta por el matemático japonés Kowa Seki en el siglo XVII, seguido por Gottfried Leibniz diez años más tarde, con el fin de resolver sistemas de ecuaciones lineales simultáneas utilizando matrices. Entre los siglos XVI y XVII se consolidó la noción de número complejo, con lo cual la noción de álgebra empezaba a apartarse de cantidades medibles. Gabriel Cramer también hizo un trabajo sobre matrices y determinantes en el siglo XVIII. También Leonhard Euler, Joseph-Louis Lagrange, Adrien-Marie Legendre y numerosos matemáticos del siglo XVIII hicieron avances notables en álgebra.
+Siglo XIX
+
+El álgebra abstracta se desarrolló en el siglo XIX, inicialmente centrada en lo que hoy se conoce como teoría de Galois y en temas de la constructibilidad.16​ Los trabajos de Gauss generalizaron numerosas estructuras algebraicas. La búsqueda de una fundamentación matemática rigurosa y una clasificación de los diferentes tipos de construcciones matemáticas llevó a crear áreas del álgebra abstracta durante el siglo XIX absolutamente independientes de nociones aritméticas o geométricas (algo que no había sucedido con el álgebra de los siglos anteriores).
+Áreas de matemáticas con la palabra álgebra en su nombre
+
+Algunas áreas de las matemáticas que entran en la clasificación de álgebra abstracta tienen la palabra álgebra en su nombre; el álgebra lineal es un ejemplo. Otras no: La teoría de grupos, la teoría de anillos y la teoría de campos son ejemplos. En esta sección, enumeramos algunas áreas de las matemáticas con la palabra "álgebra" en el nombre.
+
+    Álgebra elemental, la parte del álgebra que se suele enseñar en los cursos elementales de matemáticas.
+    Álgebra abstracta, en la que se definen e investigan las estructuras algebraicas como grupos, anillos y campos.
+    Álgebra lineal, en la que se estudian las propiedades específicas de las ecuaciones lineales, los espacios vectoriales y las matrices.
+    Álgebra de Boole, una rama del álgebra que abstrae el cálculo con los valor de verdades falso y verdadero.
+    Álgebra conmutativa, el estudio de los anillos conmutativos.
+    Álgebra computacional, la implementación de métodos algebraicos como algoritmos y programas de ordenador.
+    Álgebra homológica, el estudio de las estructuras algebraicas fundamentales para el estudio de los espacios topológicos.
+    Álgebra universal, en la que se estudian propiedades comunes a todas las estructuras algebraicas.
+    Teoría de números algebraicos, en la que se estudian las propiedades de los números desde un punto de vista algebraico.
+    Geometría algebraica, una rama de la geometría, que en su forma primitiva especifica las curvas y superficies como soluciones de ecuaciones polinómicas.
+    Combinatoria algebraica, en la que se utilizan métodos algebraicos para estudiar cuestiones combinatorias.
+    Álgebra relacional: conjunto de relaciones finitas que son cerradas bajo ciertos operadores.
+
+Muchas estructuras matemáticas se llaman álgebras:
+
+    Álgebra sobre un cuerpo o más generalmente álgebra sobre un anillo.
+    Muchas clases de álgebras sobre un campo o sobre un anillo tienen un nombre específico:
+        Álgebra asociativa
+        Álgebra no asociativa
+        Álgebra de Lie
+        Álgebra de Hopf
+        C*-álgebra
+        Álgebra simétrica
+        Álgebra exterior
+        Álgebra tensorial
+    En teoría de la medida,
+        σ-álgebra
+        Álgebra sobre un conjunto
+    En teoría de categorías
+        Álgebra F y co-álgebra F
+        Álgebra T
+    En lógica,
+        Álgebra de relación, un álgebra booleana residuada expandida con una involución llamada conversa.
+        Álgebra booleana, un complementado del Retículo distributivo.
+        Álgebra de Heyting
+
+Notación algebraica
+Notación matemática de raíz cuadrada de x
+
+Consiste en que los números se emplean para representar cantidades conocidas y determinadas. Las letras se emplean para representar toda clase de cantidades, ya sean conocidas o desconocidas. Las cantidades conocidas se expresan por las primeras letras del alfabeto: a, b, c, d, … Las cantidades desconocidas se representan por las últimas letras del alfabeto: u, v, w, x, y, z.17​
+
+Los signos empleados en álgebra son tres clases: Signos de operación, signos de relación y signos de agrupación.17​
+Signos de operación
+
+En álgebra se verifican con las cantidades las mismas operaciones que en aritmética: suma, resta, multiplicación, elevación a potencias y extracción de raíces, que se indican con los principales signos de aritmética excepto el signo de multiplicación. En lugar del signo × suele emplearse un punto entre los factores y también se indica a la multiplicación colocando los factores entre paréntesis. Así a⋅b y (a)(b) equivale a a × b.
+Signos de relación
+
+Se emplean estos signos para indicar la relación que existe entre dos cantidades. Los principales son:
+
+    =, que se lee igual a. Así, a=b se lee “a igual a b”.
+    >, que se lee mayor que. Así, x + y > m se lee “x + y mayor que m”.
+    <, que se lee menor que. Así, a < b + c se lee “a menor que b + c”.
+
+Signos de agrupación
+
+Los signos de agrupación son: los paréntesis o paréntesis ordinarios ( ), los corchetes o paréntesis angulares o paréntesis rectangulares [ ], las llaves { }, y la barra o vínculo | |. Estos signos indican que la operación colocada entre ellos debe efectuarse primero. Así, (a + b)c índica que el resultado de la suma a y b debe multiplicarse por c; [a – b]m indica que la diferencia entre a y b debe multiplicarse por m, {a + b} ÷ {c – d} índica que la suma de a y b debe dividirse entre la diferencia de c y d. El orden de estos signos son de la siguiente forma | { [ ( ) ] } |, por ejemplo: | { [ (a + b) – c ] × d } ÷ e | indica que al resultado de la suma de a + b debe restarse c, luego el resultado de la resta debe multiplicarse por d, y al final el resultado de la multiplicación debe dividirse entre e.
+Signos y símbolos más comunes
+
+Los signos y símbolos son utilizados en el álgebra —y en general en teoría de conjuntos y álgebra de conjuntos— con los que se constituyen ecuaciones, matrices, series, etc. Sus letras son llamadas variables, ya que se usa esa misma letra en otros problemas y su valor va variando.
+
+Aquí algunos ejemplos:
+Signos y símbolos
+Expresión
+	
+Uso
++ 	Además de expresar adición, también es usada para expresar operaciones binarias
+c o k 	Expresan términos constantes
+Primeras letras del abecedario
+a, b, c, … 	Se utilizan para expresar cantidades conocidas
+Últimas letras del abecedario
+…, x, y, z 	Se utilizan para expresar incógnitas
+n 	Expresa cualquier número (1, 2, 3, 4, …, n)
+Exponentes y subíndices
+a ′ , a ″ , a ‴ ; a 1 , a 2 , a 3 {\displaystyle a',a'',a''';a_{1},a_{2},a_{3}\!} a', a'', a'''; a _1, a _2, a _3 \! 	Expresar cantidades de la misma especie, de diferente magnitud.
+	
+	
+
+
+Simbología de Conjuntos18​
+Símbolo
+	
+Descripción
+{} 	Conjunto
+∈ 	Es un elemento del conjunto o pertenece al conjunto.
+∉ 	No es un elemento del conjunto o no pertenece al conjunto.
+⎜ 	Tal que
+n (C) 	Cardinalidad del conjunto C
+U 	Conjunto Universo
+Φ 	Conjunto vacío
+⊆ 	Subconjunto de
+⊂ 	Subconjunto propio de
+⊄ 	No es subconjunto propio de
+> 	Mayor que
+< 	Menor que
+≥ 	Mayor o igual que
+≤ 	Menor o igual que
+∩ 	Intersección de conjuntos
+∪ 	Unión de Conjuntos
+A' 	Complemento del conjunto A
+= 	Símbolo de igualdad
+≠ 	No es igual a
+… 	El conjunto continúa
+⇔ 	Si y solo si
+¬ (en algunos ocasiones ∼) 	No, negación lógica (es falso que)
+∧ 	Y
+∨ 	O
+	
+Lenguaje algebraico
+Lenguaje algebraico18​
+Lenguaje común
+	
+Lenguaje algebraico
+Un número cualquiera 	m
+Un número cualquiera aumentado en siete 	m + 7
+La diferencia de dos números cualesquiera 	f - q
+El doble de un número excedido en cinco 	2x + 5
+La división de un número entero entre su antecesor 	x/(x-1)
+La mitad de un número 	d/2
+El cuadrado de un número 	y^2
+La media de la suma de dos números 	(b+c)/2
+Las dos terceras partes de un número disminuidos en cinco es igual a 12. 	2/3 (x-5) = 12
+Tres números naturales consecutivos. 	x, x + 1, x + 2.
+La parte mayor de 1200, si la menor es w 	1200 - w
+El cuadrado de un número aumentado en siete 	b2 + 7
+Las tres quintas partes de un número más la mitad de su consecutivo equivalen a tres. 	3/5 p + 1/2 (p+1) = 3
+El producto de un número con su antecesor equivalen a 30. 	x(x-1) = 30
+El cubo de un número más el triple del cuadrado de dicho número 	x3 + 3x2
+Estructura algebraica
+Artículo principal: Estructura algebraica
+
+En matemáticas, una estructura algebraica es un conjunto de elementos con unas propiedades operacionales determinadas; es decir, lo que define a la estructura del conjunto son las operaciones que se pueden realizar con los elementos de dicho conjunto y las propiedades matemáticas que dichas operaciones poseen. Un objeto matemático constituido por un conjunto no vacío y algunas leyes de composición interna definida en él es una estructura algebraica. Las estructuras algebraicas más importantes son:
+Estructura 	Ley interna 	Asociatividad 	Neutro 	Inverso 	Conmutatividad
+Magma 	Sí 				
+Semigrupo 	Sí 	Sí 			
+Monoide 	Sí 	Sí 	Sí 		
+Monoide abeliano 	Sí 	Sí 	Sí 		Sí
+Grupo 	Sí 	Sí 	Sí 	Sí 	
+Grupo abeliano 	Sí 	Sí 	Sí 	Sí 	Sí
+Estructura (A,+,·) 	(A,+) 	(A,·)
+Semianillo 	Monoide abeliano 	Monoide
+Anillo 	Grupo abeliano 	Semigrupo
+Cuerpo 	Grupo abeliano 	Grupo abeliano
+
+    Módulo
+    Espacio vectorial

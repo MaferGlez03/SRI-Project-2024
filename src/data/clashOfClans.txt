@@ -1,0 +1,71 @@
+Clash of Clans, también conocido como CoC, es un videojuego de estrategia y de construcción de aldeas en línea, para dispositivos móviles con plataformas de iOS y Android. Fue desarrollado por Supercell y lanzado para iOS el 2 de agosto del 2012 y el 30 de septiembre para Android.1​ Requiere acceso a Internet para utilizarlo.
+Índice
+
+    1 Funcionalidad
+    2 Estructuras
+    3 Defensas
+        3.1 Aldea principal
+    4 Recepción
+    5 Referencias
+    6 Enlaces externos
+
+Funcionalidad
+
+Clash of Clans es un videojuego de estrategia multijugador en el que el usuario debe construir una aldea (en una cuadrícula de 44x44), donde tendrá que administrar recursos, construir y mejorar una amplia variedad de edificios, entrenar tropas, elaborar hechizos, y atacar a otras aldeas de jugadores en línea o participar en una campaña de un jugador en la que luchará contra aldeas prediseñadas, con la finalidad de obtener tres tipos de recursos: oro, elixir y elixir oscuro; útiles para la expansión de la aldea. Al mismo tiempo, el usuario puede crear o unirse a un clan, donde podrá interactuar con otros jugadores y participar en eventos como las "Guerras de Clanes", los "Juegos Clan" o las "Ligas de Guerra".
+
+Estructuras
+
+Los edificios hacen que la aldea crezca pero construirlos y mejorarlos requiere oro, elixir o elixir oscuro. Algunos pueden costar gemas, como lo es la choza de constructor. El Ayuntamiento es el principal edificio, y de su mejora dependerá la construcción de los demás edificios, una vez alcanzado el máximo de mejoras de las estructuras del nivel del Ayuntamiento, es necesario aumentar su nivel para así poder mejorar más.
+
+Defensas
+
+Defensas: Hay varios tipos de defensas que permiten defender de ataques enemigos; hay diferentes defensas en las 2 aldeas.
+
+Aldea principal
+
+verde
+
+    Cañón: Es la primera defensa que se consigue, hace daño a una sola unidad, a objetivos terrestres y cuando consigas tener un cañón al siete lo podrás hacer doble, esta opción de hacer que el cañón sea doble se hace con monedas. Su nivel máximo es el 20. Tiene alcance de 9 casillas, y 7 cuando es perfeccionado.
+
+    Muros: Ayudan a detener a las tropas terrestres. A partir del octavo nivel, se pueden mejorar no solo con oro, sino con elixir; su costo en oro o elixir es el mismo y aumenta gradualmente dependiendo del nivel. Su nivel máximo es el 15.
+
+    Torre de Arqueras: Altas torres que contienen arqueras en lo más alto que defenderán la aldea de ataques aéreos y terrestres, con una cadencia de disparo dos veces mayor a la del cañón, hace daño a dos unidades. Su nivel máximo es el 20. Tiene alcance de 10 casillas, y 7 cuando se perfecciona.
+
+    Torre de Mago: Iguales que las anteriores pero con un mago a lo alto. Tienen menos área de defensa pero son bastante poderosos, ya que poseen daño de «salpicadura», lo que quiere decir que dañan a varios objetivos dentro de su radio de acción, atacan tropas terrestres y aéreas. Su nivel máximo es el 14. Tiene alcance de 7 casillas.
+
+    Torre Bombardera: Son torres con esqueletos bombarderos en lo alto, estos lanzan bombas a tropas terrestres y al ser destruidas dejan en el suelo una gran bomba que genera una poderosa explosión. Su nivel máximo es el 9. Tiene alcance de 6 casillas.
+
+    Cohetes de Defensa: Son un conjunto de cohetes contenidos en unos barriles. Ocupan un espacio de 12×12 casillas. Tienen un alcance de 10 casillas. Solo ataca a tropas aéreas y a una sola tropa a la vez. Su nivel máximo es el 12.
+
+    Mortero: Es una defensa de ataque que lanza bolas explosivas que acaban con un gran número de tropas rivales si están lo suficientemente juntas, ya que al igual que las torres de magos poseen daño de "salpicadura". Solo daña a tropas terrestres. Su nivel máximo es el 13. Tiene alcance de 4 a 11 casillas.
+
+    Controlador Aéreo: Esta defensa no inflige daño, pero hace retroceder a grupos de enemigos voladores con fuertes ráfagas de fuego que están a la dirección donde apunta el Controlador Aéreo. Su nivel máximo es el 7. Tiene alcance de 1 a 19 casillas.
+
+    Ballesta: Es la defensa con mayor cadencia de disparo de todas pero inflige un daño muy reducido. Se puede modificar la forma de disparo: atacar a objetivos aéreos y terrestres en una zona reducida o solo objetivos terrestres en una zona más amplia. Su nivel máximo es el 8. Tiene alcance de 14 casillas cuando ataca solo terrestre, y 11 cuando son tanto terrestres como aéreos.
+
+    Torre Tesla: Permanecen ocultas hasta que las tropas se acerquen lo suficiente a ellas o el contrincante logre destruir la aldea más del 49%. Lanzan ataques rápidos con electricidad de objetivo único. Anteriormente, la Torres Tesla podían generar el doble de daño a la P.E.K.K.A., pero en la actualización del octubre de 2016 se eliminó. Su nivel máximo es el 13. Tiene alcance de 7 casillas.
+
+    Torre Infernal: La torre infernal ataca a objetivos aéreos y terrestres, tiene dos formas de estructura de ataque: multiobjetivo, atacando a varios objetivos en un área amplia y un solo objetivo, atacando a un solo objetivo en un área más reducida y va aumentando el daño. Su nivel máximo es el 8. Tiene alcance de 9 casillas cuando se configura en un solo objetivo, y 10 cuando se configura en multiobjetivo.
+
+    Águila de Artillería: Es una defensa que posee daño de "salpicadura" muy bajo. Es muy útil ya que ataca tanto a unidades aéreas como terrestres y su rango de ataque es toda la aldea, excepto un pequeño rango a su alrededor. También posee provisiones ilimitadas, al igual que la ballesta o torre infernal. Su objetivo favorito son los gólems y les causa el triple de daño. Es considerada la defensa con más rango en el juego, pues tiene alcance de 7 a 50 casillas. Su nivel máximo es el 5.
+
+    Catapulta: La catapulta arroja rocas atadas al objetivo más cercano (terrestres y aéreos). Cuando impacta con el primer objetivo sus cuerdas, las cuales mantienen unidas una cantidad de rocas se desatan automáticamente por la que infligen daño adicional a las tropas cercanas, pues tiene alcance de 3 a 7 casillas. Su nivel máximo es el 3.
+
+    Giga Tesla: Esta defensa se consigue automáticamente al mejorar tu ayuntamiento al nivel 12 y podrá atacar a un máximo de 4 tropas enemigas a la vez, una vez que la Giga Tesla es mejorada al nivel 5, desbloquearás la habilidad final de la Giga Tesla, la cual provocará que una vez que el Ayuntamiento sea destruido, este se convertirá en una super bomba que causará un gran daño a las tropas que se encuentren a su alrededor. El daño de esta bomba es 1000. Tiene alcance de 10 casillas.
+
+    Giga Torre Infernal: Esta defensa se consigue automáticamente al mejorar tu ayuntamiento al nivel 13 y podrá atacar a un máximo de 4 tropas enemigas a la vez, una vez que la Giga torre infernal es mejorada al nivel 5, desbloquearás la habilidad final, la cual provocará que una vez que el Ayuntamiento sea destruido, este estallara en una explosión de hielo que ralentizara todo a su alrededor durante algunos momentos. El daño al destruirse es de 1000. Tiene alcance de 10 casillas.
+
+    Choza del Constructor: Esta defensa se desbloquea a partir del ayuntamiento 14. El constructor puede reparar estructuras cercanas poco a poco, pero si se destruye su choza, se esconderá en un túnel debajo de la choza. La choza también es capaz de repararse a sí misma La choza actúa como una mini ballesta de cadencia media que ataca tanto aéreo como terrestre. Su nivel máximo es el 4.
+
+Recepción
+Clash of Clans
+Puntuaciones de críticas
+Publicación	Calificación
+Metacritic	74/1002​
+3djuegos	8.8/103​
+148Apps	4.5/5 estrellas4​
+Gamezebo	4/5 estrellas5​
+Modojo	3/5 estrellas6​
+Pocket Gamer	4.5/5 estrellas7​
+
+Clash of Clans ha recibido en su mayoría buenas críticas y ha sido muy exitoso para Supercell, ya que junto a su otro juego, Hay Day, la compañía finlandesa se ha embolsado 770 millones de dólares, generando 2,4 millones al día.8​ En la Google Play tiene una recepción9​ de 4,7 sobre 5 y en la App Store tiene una recepción10​ de 4,7 sobre 5. 
