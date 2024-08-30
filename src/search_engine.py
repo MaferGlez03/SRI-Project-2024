@@ -44,9 +44,10 @@ def new_value(query):
     for word in query_array:
         value_string = input(f"Valor del TF-IDF de {word}: ")
         value = float(value_string)
-        # while value < 0 or value > 1:
-        #     print("El valor tiene que estar entre 0 y 1.")
-        #     value = input(f"Valor del TF-IDF de {word}: ")
+        while value < -1 or value > 1:
+            print("El valor tiene que estar entre -1 y 1.")
+            value_string = input(f"Valor del TF-IDF de {word}: ")
+            value = float(value_string)
         values[i] = value
         i += 1
     return query_array, values
