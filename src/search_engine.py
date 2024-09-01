@@ -1,22 +1,14 @@
-import math
 import os
-import numpy as np
-import pickle
-from collections import Counter
 from nltk.stem import PorterStemmer
-from collections import defaultdict
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 
-def coseno_similitud(textos, query):
+def coseno_similitud(textos, query, verbose, nuevos_valores):
     # Crear el vectorizador TF-IDF
     vectorizador = TfidfVectorizer(lowercase=True, stop_words=None, max_df=1.0, min_df=1)
-    
-    # Transformar los textos en vectores TF-IDF
-    vectores_tfidf = vectorizador.fit_transform(textos)
     
     # Transformar los textos en vectores TF-IDF
     vectores_tfidf_array = vectorizador.fit_transform(textos).toarray()
@@ -24,33 +16,23 @@ def coseno_similitud(textos, query):
     # Obtener el vocabulario del vectorizador
     vocabulario = vectorizador.vocabulary_
     
-    palabras_query, nuevos_valores = new_value(query)
+    palabras_query = query.split(" ")
     
+    i = 0
     # Modificar los valores de TF-IDF del vector de la query
     for palabra, nuevo_valor in zip(palabras_query, nuevos_valores):
         if palabra in vocabulario:
             indice = vocabulario[palabra]
-            vectores_tfidf_array[-1][indice] = nuevo_valor
+            if verbose:
+                vectores_tfidf_array[-1][indice] = nuevo_valor
+            else:
+                nuevos_valores[i] = round(vectores_tfidf_array[-1][indice], 2)
+            i += 1
     
     # Calcular la similitud del coseno
     similitud = cosine_similarity(vectores_tfidf_array)
     
-    return similitud
-
-def new_value(query):
-    query_array = query.split(" ")
-    values = np.zeros(len(query_array))
-    i = 0
-    for word in query_array:
-        value_string = input(f"Valor del TF-IDF de {word}: ")
-        value = float(value_string)
-        while value < -1 or value > 1:
-            print("El valor tiene que estar entre -1 y 1.")
-            value_string = input(f"Valor del TF-IDF de {word}: ")
-            value = float(value_string)
-        values[i] = value
-        i += 1
-    return query_array, values
+    return similitud, nuevos_valores
 
 # Función para leer documentos desde una carpeta
 def read_documents_from_folder():
@@ -81,10 +63,8 @@ def process_query(query):
     
     return ' '.join(stemming)
 
-def main():
-    # Leer query
-    query = input("Introduce tu busqueda: ")
-    
+def search(query, verbose, values):
+        
     # Procesar la query
     processed_query = process_query(query)
     
@@ -96,7 +76,7 @@ def main():
     texts.append(processed_query)
     
     # Calcular el TF-IDF de cada documento y de la query
-    matrix = coseno_similitud(texts, query)
+    matrix, final_values = coseno_similitud(texts, query, verbose, values)
     
     # Mapear los documentos con sus TF-IDF
     doc_tfidf = dict(zip(documents.keys(), matrix[-1][:-1]))
@@ -107,8 +87,4 @@ def main():
     # Devolver los 10 primeros elementos
     imprimir = dict(list(diccionario_ordenado.items())[:10])
     
-    print(f"Ha buscado: {processed_query}. Los resultados son:")
-    for clave, valor in imprimir.items():
-        print(f"{clave}: {valor}")
-
-main()
+    return imprimir.keys(), final_values
