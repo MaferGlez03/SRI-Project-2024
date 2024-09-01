@@ -1,10 +1,64 @@
 import os
 from nltk.stem import PorterStemmer
-from nltk.corpus import stopwords
+from nltk.corpus import stopwords, wordnet
 from nltk.tokenize import word_tokenize
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 
+def process_query(query, query_expand_bool, stop_words_bool, stemmer_bool):
+    tokens = word_tokenize(query)
+    normal = [token.lower() for token in tokens]
+    stop_words = set(stopwords.words('spanish'))
+    stemmer = PorterStemmer()        
+        
+    if query_expand_bool:
+        expanded_words = normal.copy()
+        for word in normal:
+            synsets = wordnet.synsets(word)
+            for synset in synsets:
+                expanded_words.extend(synset._lemma_names)
+        if stop_words_bool:
+            final = [word for word in expanded_words if word not in stop_words]
+            if stemmer_bool:
+                stemming = [stemmer.stem(token) for token in final]
+            else:
+                stemming = final
+        else:
+            if stemmer_bool:
+                stemming = [stemmer.stem(token) for token in expanded_words]
+            else:
+                stemming = expanded_words
+    else: 
+        if stop_words_bool:
+            final = [word for word in normal if word not in stop_words]
+            if stemmer_bool:
+                stemming = [stemmer.stem(token) for token in final]
+            else:
+                stemming = final
+        else:
+            if stemmer_bool:
+                stemming = [stemmer.stem(token) for token in normal]
+            else:
+                stemming = normal
+    
+    return ' '.join(stemming)
+
+# Función para leer documentos desde una carpeta
+def read_documents_from_folder():
+    documents = []
+    # Obtener la ruta absoluta de la carpeta actual
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Construir la ruta absoluta a la carpeta 'data'
+    folder_path = os.path.join(current_dir, 'data')
+    
+    documents = {}
+    for filename in os.listdir(folder_path):
+        if filename.endswith(".txt"):
+            file_path = os.path.join(folder_path, filename)
+            with open(file_path, 'r', encoding='utf-8') as file:
+                documents[filename] = file.read()
+    return documents
 
 def coseno_similitud(textos, query, verbose, nuevos_valores):
     # Crear el vectorizador TF-IDF
@@ -34,39 +88,10 @@ def coseno_similitud(textos, query, verbose, nuevos_valores):
     
     return similitud, nuevos_valores
 
-# Función para leer documentos desde una carpeta
-def read_documents_from_folder():
-    documents = []
-    # Obtener la ruta absoluta de la carpeta actual
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-
-    # Construir la ruta absoluta a la carpeta 'data'
-    folder_path = os.path.join(current_dir, 'data')
-    
-    documents = {}
-    for filename in os.listdir(folder_path):
-        if filename.endswith(".txt"):
-            file_path = os.path.join(folder_path, filename)
-            with open(file_path, 'r', encoding='utf-8') as file:
-                documents[filename] = file.read()
-    return documents
-
-def process_query(query):
-    tokens = word_tokenize(query)
-    normal = [token.lower() for token in tokens]
-    
-    stop_words = set(stopwords.words('spanish'))
-    normal = [word for word in normal if word not in stop_words]
-    
-    stemmer = PorterStemmer()
-    stemming = [stemmer.stem(token) for token in tokens]
-    
-    return ' '.join(stemming)
-
-def search(query, verbose, values):
+def search(query, verbose, values, query_expand_bool, stop_words_bool, stemmer_bool):
         
     # Procesar la query
-    processed_query = process_query(query)
+    processed_query = process_query(query, query_expand_bool, stop_words_bool, stemmer_bool)
     
     # Leer los documentos
     documents = read_documents_from_folder()

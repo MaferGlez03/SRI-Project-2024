@@ -1,11 +1,16 @@
 document.getElementById('config-button').addEventListener('click', function() {
     var configOptions = document.getElementById('config-options');
+    var searchResults = document.getElementById('search-results');
+
     if (configOptions.classList.contains('hidden')) {
         configOptions.classList.remove('hidden');
+        searchResults.classList.add('hidden');
     } else {
         configOptions.classList.add('hidden');
+        searchResults.classList.remove('hidden');
     }
 });
+
 
 document.getElementById('search-form').addEventListener('submit', function(event) {
     var option1 = document.getElementById('option1');
@@ -16,6 +21,31 @@ document.getElementById('search-form').addEventListener('submit', function(event
         hiddenField.value = 'true';
         this.appendChild(hiddenField);
     }
+
+    if (query_expand_bool.checked) {
+        var hiddenField = document.createElement('input');
+        hiddenField.type = 'hidden';
+        hiddenField.name = 'query_expand_bool';
+        hiddenField.value = 'true';
+        this.appendChild(hiddenField);
+    }
+
+    if (stop_words_bool.checked) {
+        var hiddenField = document.createElement('input');
+        hiddenField.type = 'hidden';
+        hiddenField.name = 'stop_words_bool';
+        hiddenField.value = 'true';
+        this.appendChild(hiddenField);
+    }
+
+    if (stemmer_bool.checked) {
+        var hiddenField = document.createElement('input');
+        hiddenField.type = 'hidden';
+        hiddenField.name = 'stemmer_bool';
+        hiddenField.value = 'true';
+        this.appendChild(hiddenField);
+    }
+
 
     var query = document.querySelector('input[name="search"]').value;
     var words = query.split(' ');
@@ -80,3 +110,29 @@ document.getElementById('reset-button').addEventListener('click', function() {
         document.getElementById('slider-value-' + index).textContent = initialSliderValues[index];
     });
 });
+
+document.getElementById('option1').addEventListener('change', function() {
+    var slidersContainer = document.getElementById('sliders-container');
+    var resetButton = document.getElementById('reset-button');
+    
+    if (this.checked) {
+        slidersContainer.style.display = 'block';
+        resetButton.style.display = 'block';
+    } else {
+        slidersContainer.style.display = 'none';
+        resetButton.style.display = 'none';
+    }
+});
+
+window.onload = function() {
+    var option1 = document.getElementById('option1');
+    var slidersContainer = document.getElementById('sliders-container');
+    var resetButton = document.getElementById('reset-button');
+    
+    if (!option1.checked) {
+        slidersContainer.style.display = 'none';
+        resetButton.style.display = 'none';
+    }
+};
+
+
