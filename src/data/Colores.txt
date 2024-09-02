@@ -1,0 +1,16 @@
+blanco
+azul
+rojo
+verde
+amarillo
+rosado
+negro
+carmelita
+gris
+morado
+magenta
+lila
+beige
+plateado
+dorado
+indigo

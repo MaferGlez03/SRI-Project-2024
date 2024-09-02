@@ -1,0 +1,5 @@
+Necesitas tener instalado:
+* Python 3.12.5
+* nltk 3.9.1
+* flask 3.0.3
+* scikit-learn 1.5.1
