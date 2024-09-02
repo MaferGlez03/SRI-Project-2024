@@ -4,11 +4,11 @@ Motor de búsqueda que brinda la transparencia necesaria para evitar caer en el 
 
 ## Integrantes 
 
-Daniel Polanco Pérez.
+Daniel Polanco Pérez C311
 
-María Fernanda Suárez González.
+María Fernanda Suárez González C311
 
-Adrián Navarro Foya. 
+Adrián Navarro Foya C311
 
 ## Requerimientos
 * Python 3.12.5
@@ -25,7 +25,20 @@ Adrián Navarro Foya.
 * CSS
 * JavaScript
 
-## 
+## Pasos para ejecutar
+1. Navega hasta el directorio donde esta el proyecto.
+2. Haz el archivo ejecutable con el comando:
+
+            chmod +x startup.sh
+3. Ejecuta el script con el comando:
+
+            ./startup.sh
+
+## Alternativa para ejecutar
+1. Abre una terminal y navega hasta el directorio donde esta el proyecto.
+2. Dentro de src ejecuta:
+
+        python app.py
 
 
 

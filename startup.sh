@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Activar el entorno virtual
-source myenv/bin/activate
-
 # Ejecutar la aplicación Flask
 python app.py
+
+# Abrir navegador
+xdg-open http://127.0.0.1:5000
