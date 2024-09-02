@@ -1,7 +1,10 @@
 #!/bin/bash
 
+# Navega hasta el directorio donde esta el archivo
+cd .\src\
+
 # Ejecutar la aplicación Flask
-python app.py
+.\src\python app.py
 
 # Abrir navegador
 xdg-open http://127.0.0.1:5000
