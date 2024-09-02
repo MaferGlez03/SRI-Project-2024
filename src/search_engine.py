@@ -77,6 +77,7 @@ def coseno_similitud(textos, query, verbose, nuevos_valores):
     for palabra, nuevo_valor in zip(palabras_query, nuevos_valores):
         if palabra in vocabulario:
             indice = vocabulario[palabra]
+            # Se le asigna la relevancia determinada en el frontend a cada token
             if verbose:
                 vectores_tfidf_array[-1][indice] = nuevo_valor
             else:
